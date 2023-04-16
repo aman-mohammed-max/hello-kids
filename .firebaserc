@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "hellokids-fadcb"
+  },
+  "targets": {
+    "hellokids-fadcb": {
+      "hosting": {
+        "of": [
+          "hellokids"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

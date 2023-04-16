@@ -1,0 +1,49 @@
+.ansinput {
+  width: inherit !important;
+  height: inherit;
+  margin: 0;
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  text-align: center;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  background-color: inherit;
+}
+
+.ansinput::-moz-number-spin-box {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.ansinput::-webkit-outer-spin-button,
+.ansinput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.ansinput {
+  -moz-appearance: textfield;
+}
+
+.ansinput:active {
+  outline: none;
+}
+
+.inputcon {
+  height: inherit;
+  width: inherit;
+  background-color: inherit;
+}
+
+.page {
+  background-image: url(../../assets/maths.png);
+  background-size: cover;
+  background-position: center;
+}

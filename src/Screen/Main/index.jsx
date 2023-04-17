@@ -59,13 +59,19 @@ export default function Main() {
             rows="medium"
             gap="large"
           >
-            <Card />
+            <Card
+              justify="center"
+              align="center"
+              onClick={() => navigate("/videos")}
+            >
+              <Heading margin="none"> Videos </Heading>
+            </Card>
             <Card
               justify="center"
               align="center"
               onClick={() => navigate("/mathquiz")}
             >
-              <Heading margin="none"> MathQuiz</Heading>
+              <Heading margin="none">MathQuiz</Heading>
             </Card>
             <Card
               justify="center"

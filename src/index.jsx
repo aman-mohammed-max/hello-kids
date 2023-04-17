@@ -11,6 +11,7 @@ import ProtectedRoute from "./functions/ProtectedRoute";
 import MathQuiz from "./Screen/MathQuiz";
 import Slate from "./Screen/Slate";
 import ABCD from "./Screen/ABCD";
+import Videos from "./Screen/Videos";
 
 function App() {
   return (
@@ -48,6 +49,14 @@ function App() {
             element={
               <ProtectedRoute>
                 <ABCD />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/videos"
+            element={
+              <ProtectedRoute>
+                <Videos />
               </ProtectedRoute>
             }
           />

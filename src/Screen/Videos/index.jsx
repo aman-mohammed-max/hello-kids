@@ -30,7 +30,7 @@ export default function Videos() {
       const url =
         "https://www.googleapis.com/youtube/v3/search?key=" +
         import.meta.env.VITE_REACT_APP_GOOGLE_CONSOLE_KEY +
-        "&type=video&part=snippet&q=kidssongs&maxResults=100";
+        "&type=video&part=snippet&q=kidssongs&maxResults=73";
 
       const response = await fetch(url);
       const data = await response.json();
